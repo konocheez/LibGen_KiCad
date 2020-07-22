@@ -3,8 +3,9 @@ This piece of code is meant to take the component content of a schematic and pro
 
 """
 ##miscellaneous imports
-import os
-import shutil
+import os, shutil
+import pandas as pd 
+import numpy as np
 
 
 print("Please enter the filepath and filename of \
@@ -20,29 +21,29 @@ print("Please enter the filepath and filename of \
         PATH/<LibraryName>.lib")
 
 print("This is your current working directory (cwd):\n\t", os.cwd())
-orig_prj_name = input("project name/path: ")
+sourcepath = input("project name/path (folder): ")
 newlib_name = input("name of new library: ")
-# copy the file for safety, user should delete later
-shutil.move(orig_prj_name, prj_name.txt)
+target_lib_location = input("path of where you want the library saved: ")
 
-os.chdir(prj_name.txt) #whatever the path is
+schem_partdata = sourcepath
+    # copies to .txt user should delete later
+shutil.copy2(schem_partdata, '{s}schem_partdata{n}.txt'.format(sourcepath, copy))    
+        #rename to .txt file
+
+os.chdir(sourcepath) #whatever the path is
 folder_contents = os.listdir() 
 
+for path, dirs, files in os.walk():
+    print(files)
 
-### WITH STATEMENT ELIMINATES NEED FOR file.close() 
+with open('prj_name.txt', 'r') as schemtext:
 
-with open("prj_name.txt", r) as main_txt:
-    data = file.readlines()
-    o = open('newlib_name', 'w')
-                """
-                DO THE STUFFS HERE
-                find the characters/sections to sep parts - '#'
-                move that text elsewhere - new lib 
-                """
-    for line in data:
-        line.replace('"', "")
-        line.split(",")
-
+    data = rage.read().splitlines()
+    headers = data[0].split(', ')
+    for line in range(1, len(data)):
+        data[line] = data[line].split('","')
+    data = data[1:len(data)]
+    df = pd.DataFrame(data, index = np.arange(1, len(data)+1), columns = headers)
 
 
 
