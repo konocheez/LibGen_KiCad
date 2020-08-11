@@ -1,0 +1,1445 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# .1u
+#
+DEF .1u C 0 10 N Y 0 F N
+F0 ".1u" 25 100 50 H V L CNN
+F1 "C20" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" 0 0 50 H I C CNN
+F4 "Kemet"  0 0 50 H I C CNN
+F5 "C0805C104J8RACTU"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 47u
+#
+DEF 47u C 0 10 N Y 0 F N
+F0 "47u" 25 100 50 H V L CNN
+F1 "C18" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:CP_Elec_6.3x7.7" 38 -150 50 H I C CNN
+F3 "https://industrial.panasonic.com/ww/products/capacitors/aluminum-capacitors/aluminum-cap-smd/fp-v-high-temp-reflow/EEEFP1C470AP" 0 0 50 H I C CNN
+F4 "Panasonic"  0 0 50 H I C CNN
+F5 "EEE-FP1C470AP"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 249
+#
+DEF 249 R 0 0 N Y 1 F N
+F0 "249" 80 0 50 V V C CNN
+F1 "R17" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0603" 80 0 50 V V C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 0 0 50 H I C CNN
+F4 "Panasonics"  0 0 50 H I C CNN
+F5 "ERA-3AED2490V"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 88.7K
+#
+DEF 88.7K R 0 0 N Y 1 F N
+F0 "88.7K" 80 0 50 V V C CNN
+F1 "R5" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0603" 80 0 50 V V C CNN
+F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 0 0 50 H I C CNN
+F4 "VISHAY"  0 0 50 H I C CNN
+F5 "CRCW060388K7FKEA"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 274K
+#
+DEF 274K R 0 0 N Y 1 F N
+F0 "274K" 80 0 50 V V C CNN
+F1 "R1" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0603" 80 0 50 V V C CNN
+F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 0 0 50 H I C CNN
+F4 "VISHAY"  0 0 50 H I C CNN
+F5 "CRCW0603274KFKEA"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10u
+#
+DEF 10u C 0 10 N Y 0 F N
+F0 "10u" 25 100 50 H V L CNN
+F1 "C13" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_1210" 38 -150 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/400/lcc_commercial_general_en-837201.pdf" 0 0 50 H I C CNN
+F4 "TDK"  0 0 50 H I C CNN
+F5 " C3225X7R1E106M"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1
+#
+DEF 1 R 0 0 N Y 1 F N
+F0 "1" 80 0 50 V V C CNN
+F1 "R23" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" 80 0 50 V V C CNN
+F3 "https://www.bourns.com/docs/Product-Datasheets/CHPREZTR.pdf" 0 0 50 H I C CNN
+F4 "Bourns Inc."  0 0 50 H I C CNN
+F5 "CR0805-J/-1R0ELF"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 0.68u
+#
+DEF 0.68u C 0 10 N Y 0 F N
+F0 "0.68u" 25 100 50 H V L CNN
+F1 "C21" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" 0 0 50 H I C CNN
+F4 "Kemet"  0 0 50 H I C CNN
+F5 "C0805C684K5RACTU"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# .1u
+#
+DEF .1u C 0 10 N Y 0 F N
+F0 ".1u" 25 100 50 H V L CNN
+F1 "C16" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1090_X7R_ESD.pdf" 0 0 50 H I C CNN
+F4 "Kemet"  0 0 50 H I C CNN
+F5 "C0805C104K5RECAUTO"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2.2u
+#
+DEF 2.2u C 0 10 N Y 0 F N
+F0 "2.2u" 25 100 50 H V L CNN
+F1 "C3" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "https://www.analog.com/media/en/dsp-documentation/evaluation-kit-manuals/dc1622af.pdf" 0 0 50 H I C CNN
+F4 "AVX"  0 0 50 H I C CNN
+F5 "08053C225KAT2A "  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2.2u
+#
+DEF 2.2u C 0 10 N Y 0 F N
+F0 "2.2u" 25 100 50 H V L CNN
+F1 "C4" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "https://www.analog.com/media/en/dsp-documentation/evaluation-kit-manuals/dc1622af.pdf" 0 0 50 H I C CNN
+F4 "AVX"  0 0 50 H I C CNN
+F5 "08053C225KAT2A "  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# .01u
+#
+DEF .01u C 0 10 N Y 0 F N
+F0 ".01u" 25 100 50 H V L CNN
+F1 "C6" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0603" 38 -150 50 H I C CNN
+F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" 0 0 50 H I C CNN
+F4 "TDK"  0 0 50 H I C CNN
+F5 ""  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# .01u
+#
+DEF .01u C 0 10 N Y 0 F N
+F0 ".01u" 25 100 50 H V L CNN
+F1 "C12" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0603" 38 -150 50 H I C CNN
+F3 "https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf" 0 0 50 H I C CNN
+F4 "TDK"  0 0 50 H I C CNN
+F5 ""  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 249
+#
+DEF 249 R 0 0 N Y 1 F N
+F0 "249" 80 0 50 V V C CNN
+F1 "R18" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0603" 80 0 50 V V C CNN
+F3 "https://industrial.panasonic.com/cdbs/www-data/pdf/RDM0000/AOA0000C307.pdf" 0 0 50 H I C CNN
+F4 "Panasonics"  0 0 50 H I C CNN
+F5 "ERA-3AED2490V"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 274K
+#
+DEF 274K R 0 0 N Y 1 F N
+F0 "274K" 80 0 50 V V C CNN
+F1 "R2" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0603" 80 0 50 V V C CNN
+F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 0 0 50 H I C CNN
+F4 "VISHAY"  0 0 50 H I C CNN
+F5 "CRCW0603274KFKEA"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 88.7K
+#
+DEF 88.7K R 0 0 N Y 1 F N
+F0 "88.7K" 80 0 50 V V C CNN
+F1 "R6" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0603" 80 0 50 V V C CNN
+F3 "http://www.vishay.com/docs/20035/dcrcwe3.pdf" 0 0 50 H I C CNN
+F4 "VISHAY"  0 0 50 H I C CNN
+F5 "CRCW060388K7FKEA"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 47u
+#
+DEF 47u C 0 10 N Y 0 F N
+F0 "47u" 25 100 50 H V L CNN
+F1 "C17" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:CP_Elec_6.3x7.7" 38 -150 50 H I C CNN
+F3 "https://industrial.panasonic.com/ww/products/capacitors/aluminum-capacitors/aluminum-cap-smd/fp-v-high-temp-reflow/EEEFP1C470AP" 0 0 50 H I C CNN
+F4 "Panasonic"  0 0 50 H I C CNN
+F5 "EEE-FP1C470AP"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10u
+#
+DEF 10u C 0 10 N Y 0 F N
+F0 "10u" 25 100 50 H V L CNN
+F1 "C14" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_1210" 38 -150 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/400/lcc_commercial_general_en-837201.pdf" 0 0 50 H I C CNN
+F4 "TDK"  0 0 50 H I C CNN
+F5 " C3225X7R1E106M"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# .1u
+#
+DEF .1u C 0 10 N Y 0 F N
+F0 ".1u" 25 100 50 H V L CNN
+F1 "C19" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" 0 0 50 H I C CNN
+F4 "Kemet"  0 0 50 H I C CNN
+F5 "C0805C104J8RACTU"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 820
+#
+DEF 820 R 0 0 N Y 1 F N
+F0 "820" 80 0 50 V V C CNN
+F1 "R10" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" 80 0 50 V V C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 0 0 50 H I C CNN
+F4 "Stackpole Electronics"  0 0 50 H I C CNN
+F5 "RMCF0805FT1M00"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# .1u
+#
+DEF .1u C 0 10 N Y 0 F N
+F0 ".1u" 25 100 50 H V L CNN
+F1 "C15" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" 0 0 50 H I C CNN
+F4 "Kemet"  0 0 50 H I C CNN
+F5 "C0805C104J8RACTU"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10M
+#
+DEF 10M R 0 0 N Y 1 F N
+F0 "10M" 80 0 50 V V C CNN
+F1 "R8" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" 80 0 50 V V C CNN
+F3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" 0 0 50 H I C CNN
+F4 "Stackpole Electronics"  0 0 50 H I C CNN
+F5 "RMCF0805JT10M0"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10M
+#
+DEF 10M R 0 0 N Y 1 F N
+F0 "10M" 80 0 50 V V C CNN
+F1 "R7" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" 80 0 50 V V C CNN
+F3 "https://www.seielect.com/catalog/sei-rmcf_rmcp.pdf" 0 0 50 H I C CNN
+F4 "Stackpole Electronics"  0 0 50 H I C CNN
+F5 "RMCF0805JT10M0"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 820
+#
+DEF 820 R 0 0 N Y 1 F N
+F0 "820" 80 0 50 V V C CNN
+F1 "R14" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" 80 0 50 V V C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 0 0 50 H I C CNN
+F4 "Stackpole Electronics"  0 0 50 H I C CNN
+F5 "RMCF0805FT1M00"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# .1u
+#
+DEF .1u C 0 10 N Y 0 F N
+F0 ".1u" 25 100 50 H V L CNN
+F1 "C25" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" 0 0 50 H I C CNN
+F4 "Kemet"  0 0 50 H I C CNN
+F5 "C0805C104J8RACTU"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# .1u
+#
+DEF .1u C 0 10 N Y 0 F N
+F0 ".1u" 25 100 50 H V L CNN
+F1 "C27" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" 0 0 50 H I C CNN
+F4 "Kemet"  0 0 50 H I C CNN
+F5 "C0805C104J8RACTU"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# .1u
+#
+DEF .1u C 0 10 N Y 0 F N
+F0 ".1u" 25 100 50 H V L CNN
+F1 "C26" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" 0 0 50 H I C CNN
+F4 "Kemet"  0 0 50 H I C CNN
+F5 "C0805C104J8RACTU"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# .1u
+#
+DEF .1u C 0 10 N Y 0 F N
+F0 ".1u" 25 100 50 H V L CNN
+F1 "C22" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" 0 0 50 H I C CNN
+F4 "Kemet"  0 0 50 H I C CNN
+F5 "C0805C104J8RACTU"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 820
+#
+DEF 820 R 0 0 N Y 1 F N
+F0 "820" 80 0 50 V V C CNN
+F1 "R12" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" 80 0 50 V V C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 0 0 50 H I C CNN
+F4 "Stackpole Electronics"  0 0 50 H I C CNN
+F5 "RMCF0805FT1M00"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1M
+#
+DEF 1M R 0 0 N Y 1 F N
+F0 "1M" 80 0 50 V V C CNN
+F1 "R11" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" 80 0 50 V V C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 0 0 50 H I C CNN
+F4 "Stackpole Electronics"  0 0 50 H I C CNN
+F5 "RMCF0805FT1M00"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1M
+#
+DEF 1M R 0 0 N Y 1 F N
+F0 "1M" 80 0 50 V V C CNN
+F1 "R13" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" 80 0 50 V V C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 0 0 50 H I C CNN
+F4 "Stackpole Electronics"  0 0 50 H I C CNN
+F5 "RMCF0805FT1M00"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# .1u
+#
+DEF .1u C 0 10 N Y 0 F N
+F0 ".1u" 25 100 50 H V L CNN
+F1 "C24" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" 0 0 50 H I C CNN
+F4 "Kemet"  0 0 50 H I C CNN
+F5 "C0805C104J8RACTU"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# .1u
+#
+DEF .1u C 0 10 N Y 0 F N
+F0 ".1u" 25 100 50 H V L CNN
+F1 "C23" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" 0 0 50 H I C CNN
+F4 "Kemet"  0 0 50 H I C CNN
+F5 "C0805C104J8RACTU"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# .1u
+#
+DEF .1u C 0 10 N Y 0 F N
+F0 ".1u" 25 100 50 H V L CNN
+F1 "C9" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" 0 0 50 H I C CNN
+F4 "Kemet"  0 0 50 H I C CNN
+F5 "C0805C104J8RACTU"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10u
+#
+DEF 10u C 0 10 N Y 0 F N
+F0 "10u" 25 100 50 H V L CNN
+F1 "C11" 25 -100 50 H V L CNN
+F2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_EIA-6032-28_Reflow" 38 -150 50 H I C CNN
+F3 "https://content.kemet.com/datasheets/KEM_T2005_T491.pdf" 0 0 50 H I C CNN
+F4 "Kemet"  0 0 50 H I C CNN
+F5 "T491C106K025AT‎"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10K
+#
+DEF 10K R 0 0 N Y 1 F N
+F0 "10K" 80 0 50 V V C CNN
+F1 "R4" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" 80 0 50 V V C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 0 0 50 H I C CNN
+F4 "Stackpole Electronics"  0 0 50 H I C CNN
+F5 "RMCF0805FT10K0"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# .1u
+#
+DEF .1u C 0 10 N Y 0 F N
+F0 ".1u" 25 100 50 H V L CNN
+F1 "C7" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" 0 0 50 H I C CNN
+F4 "Kemet"  0 0 50 H I C CNN
+F5 "C0805C104J8RACTU"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# .1u
+#
+DEF .1u C 0 10 N Y 0 F N
+F0 ".1u" 25 100 50 H V L CNN
+F1 "C1" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" 0 0 50 H I C CNN
+F4 "Kemet"  0 0 50 H I C CNN
+F5 "C0805C104J8RACTU"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# .1u
+#
+DEF .1u C 0 10 N Y 0 F N
+F0 ".1u" 25 100 50 H V L CNN
+F1 "C2" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" 0 0 50 H I C CNN
+F4 "Kemet"  0 0 50 H I C CNN
+F5 "C0805C104J8RACTU"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# .1u
+#
+DEF .1u C 0 10 N Y 0 F N
+F0 ".1u" 25 100 50 H V L CNN
+F1 "C8" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" 0 0 50 H I C CNN
+F4 "Kemet"  0 0 50 H I C CNN
+F5 "C0805C104J8RACTU"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# .1u
+#
+DEF .1u C 0 10 N Y 0 F N
+F0 ".1u" 25 100 50 H V L CNN
+F1 "C5" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "https://content.kemet.com/datasheets/KEM_C1002_X7R_SMD.pdf" 0 0 50 H I C CNN
+F4 "Kemet"  0 0 50 H I C CNN
+F5 "C0805C104J8RACTU"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10u
+#
+DEF 10u C 0 10 N Y 0 F N
+F0 "10u" 25 100 50 H V L CNN
+F1 "C10" 25 -100 50 H V L CNN
+F2 "Capacitors_Tantalum_SMD:CP_Tantalum_Case-C_EIA-6032-28_Reflow" 38 -150 50 H I C CNN
+F3 "https://content.kemet.com/datasheets/KEM_T2005_T491.pdf" 0 0 50 H I C CNN
+F4 "Kemet"  0 0 50 H I C CNN
+F5 "T491C106K025AT‎"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 200
+#
+DEF 200 R 0 0 N Y 1 F N
+F0 "200" 80 0 50 V V C CNN
+F1 "R9" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" 80 0 50 V V C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RNCS_RNCH.pdf" 0 0 50 H I C CNN
+F4 "Stackpole Electronics"  0 0 50 H I C CNN
+F5 "RNCS0805BKE200R"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10K
+#
+DEF 10K R 0 0 N Y 1 F N
+F0 "10K" 80 0 50 V V C CNN
+F1 "R3" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0805" 80 0 50 V V C CNN
+F3 "https://www.seielect.com/Catalog/SEI-RMCF_RMCP.pdf" 0 0 50 H I C CNN
+F4 "Stackpole Electronics"  0 0 50 H I C CNN
+F5 "RMCF0805FT10K0"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2.1K
+#
+DEF 2.1K R 0 0 N Y 1 F N
+F0 "2.1K" 80 0 50 V V C CNN
+F1 "R16" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0402" 80 0 50 V V C CNN
+F3 "https://www.mouser.com/datasheet/2/40/cr05-32-1158696.pdf" 0 0 50 H I C CNN
+F4 "AVX"  0 0 50 H I C CNN
+F5 "CR05-2101FM"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 2K
+#
+DEF 2K R 0 0 N Y 1 F N
+F0 "2K" 80 0 50 V V C CNN
+F1 "R22" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0402" 80 0 50 V V C CNN
+F3 "https://www.vishay.com/docs/20035/dcrcwe3.pdf" 0 0 50 H I C CNN
+F4 "VISHAY"  0 0 50 H I C CNN
+F5 "CRCW040220001F"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C-Device
+#
+DEF C-Device C 0 10 N Y 0 F N
+F0 "C-Device" 25 100 50 H V L CNN
+F1 "C29" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "nan"  0 0 50 H I C CNN
+F5 "nan"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# C-Device
+#
+DEF C-Device C 0 10 N Y 0 F N
+F0 "C-Device" 25 100 50 H V L CNN
+F1 "C28" 25 -100 50 H V L CNN
+F2 "" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "nan"  0 0 50 H I C CNN
+F5 "nan"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 47u
+#
+DEF 47u C 0 10 N Y 0 F N
+F0 "47u" 25 100 50 H V L CNN
+F1 "C30" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_1210" 38 -150 50 H I C CNN
+F3 "https://www.mouser.com/datasheet/2/40/TAJ_AUTO-783622.pdf" 0 0 50 H I C CNN
+F4 "AVX"  0 0 50 H I C CNN
+F5 "TAJB476M010"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4.7u
+#
+DEF 4.7u C 0 10 N Y 0 F N
+F0 "4.7u" 25 100 50 H V L CNN
+F1 "C31" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0805" 38 -150 50 H I C CNN
+F3 "https://www.yuden.co.jp/productdata/catalog/mlcc01_e.pdf" 0 0 50 H I C CNN
+F4 "Taiyo Yuden"  0 0 50 H I C CNN
+F5 "JMK212BJ475MG-T"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1u
+#
+DEF 1u C 0 10 N Y 0 F N
+F0 "1u" 25 100 50 H V L CNN
+F1 "C36" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD" 38 -150 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "Taiyo Yuden"  0 0 50 H I C CNN
+F5 "EMK316BJ105ML"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# .01u
+#
+DEF .01u C 0 10 N Y 0 F N
+F0 ".01u" 25 100 50 H V L CNN
+F1 "C33" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0603" 38 -150 50 H I C CNN
+F3 "http://catalogs.avx.com/SurfaceMount.pdf" 0 0 50 H I C CNN
+F4 "AVX"  0 0 50 H I C CNN
+F5 "06033C103KAT2A"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4.7u
+#
+DEF 4.7u C 0 10 N Y 0 F N
+F0 "4.7u" 25 100 50 H V L CNN
+F1 "C35" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_1206" 38 -150 50 H I C CNN
+F3 "https://www.yuden.co.jp/productdata/catalog/mlcc01_e.pdf" 0 0 50 H I C CNN
+F4 "Taiyo Yuden"  0 0 50 H I C CNN
+F5 "EMK316BJ475ML"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1
+#
+DEF 1 R 0 0 N Y 1 F N
+F0 "1" 80 0 50 V V C CNN
+F1 "R15" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0402" 80 0 50 V V C CNN
+F3 "https://www.mouser.com/datasheet/2/40/cr05-32-1158696.pdf" 0 0 50 H I C CNN
+F4 "AVX"  0 0 50 H I C CNN
+F5 "CR05-1R0JM"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 1.24K
+#
+DEF 1.24K R 0 0 N Y 1 F N
+F0 "1.24K" 80 0 50 V V C CNN
+F1 "R19" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0402" 80 0 50 V V C CNN
+F3 "https://www.mouser.com/datasheet/2/40/cr05-32-1158696.pdf" 0 0 50 H I C CNN
+F4 "AVX"  0 0 50 H I C CNN
+F5 "CR05-1241FM"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 680
+#
+DEF 680 R 0 0 N Y 1 F N
+F0 "680" 80 0 50 V V C CNN
+F1 "R20" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0402" 80 0 50 V V C CNN
+F3 "https://www.mouser.com/datasheet/2/40/cr05-32-1158696.pdf" 0 0 50 H I C CNN
+F4 "AVX"  0 0 50 H I C CNN
+F5 "CR05-681JM"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 680
+#
+DEF 680 R 0 0 N Y 1 F N
+F0 "680" 80 0 50 V V C CNN
+F1 "R21" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0402" 80 0 50 V V C CNN
+F3 "https://www.mouser.com/datasheet/2/40/cr05-32-1158696.pdf" 0 0 50 H I C CNN
+F4 "AVX"  0 0 50 H I C CNN
+F5 "CR05-681JM"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 10
+#
+DEF 10 R 0 0 N Y 1 F N
+F0 "10" 80 0 50 V V C CNN
+F1 "R24" 80 0 50 V V C CNN
+F2 "Resistors_SMD:R_0402" 80 0 50 V V C CNN
+F3 "https://www.mouser.com/datasheet/2/40/cr05-32-1158696.pdf" 0 0 50 H I C CNN
+F4 "AVX"  0 0 50 H I C CNN
+F5 "CR05-100JM"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ R_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 4.7u
+#
+DEF 4.7u C 0 10 N Y 0 F N
+F0 "4.7u" 25 100 50 H V L CNN
+F1 "C32" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_1206" 38 -150 50 H I C CNN
+F3 "https://www.yuden.co.jp/productdata/catalog/mlcc01_e.pdf" 0 0 50 H I C CNN
+F4 "Taiyo Yuden"  0 0 50 H I C CNN
+F5 "EMK316BJ475ML"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# .01u
+#
+DEF .01u C 0 10 N Y 0 F N
+F0 ".01u" 25 100 50 H V L CNN
+F1 "C34" 25 -100 50 H V L CNN
+F2 "Capacitors_SMD:C_0603" 38 -150 50 H I C CNN
+F3 "http://catalogs.avx.com/SurfaceMount.pdf" 0 0 50 H I C CNN
+F4 "AVX"  0 0 50 H I C CNN
+F5 "06033C103KAT2A"  0 0 50 H I C CNN
+F8 ""  0 0 50 H I C CNN
+F7 ""  0 0 50 H I C CNN
+$FPLIST
+ C_0805*
+$ENDFPLIST
+DRAW
+S -90 20 90 40 0 1 0 N
+S 90 -20 -90 -40 0 1 0 F
+P 2 0 1 0 -70 90 -30 90 N
+P 2 0 1 0 -50 110 -50 70 N
+X ~ 1 0 150 110 D 50 50 1 1 P
+X ~ 2 0 -150 110 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+
+#
+#End Library
